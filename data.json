@@ -1,0 +1,116 @@
+{
+  "toy": [
+    {
+      "_id": "18024d",
+      "name": "magna morbi",
+      "price": 56,
+      "type": "Funny",
+      "createdAt": "1978-01-19T08:06:08.551Z",
+      "inStock": false
+    },
+    {
+      "_id": "18f026",
+      "name": "magna vestibulum",
+      "price": 15,
+      "type": "Educational",
+      "createdAt": "1974-11-27T22:53:10.301Z",
+      "inStock": true
+    },
+    {
+      "_id": "1eq8032",
+      "name": "sit risus",
+      "price": 68,
+      "type": "Funny",
+      "createdAt": "1994-08-10T22:41:58.139Z",
+      "inStock": false
+    },
+    {
+      "_id": "1803fw3",
+      "name": "egestas nec",
+      "price": 18,
+      "type": "Funny",
+      "createdAt": "1999-05-07T05:43:34.121Z",
+      "inStock": true
+    },
+    {
+      "_id": "1803f4",
+      "name": "aenean odio",
+      "price": 15,
+      "type": "Educational",
+      "createdAt": "1988-10-01T08:54:49.046Z",
+      "inStock": true
+    },
+    {
+      "_id": "1803f5",
+      "name": "quis in",
+      "price": 79,
+      "type": "Adult",
+      "createdAt": "1993-04-02T04:23:05.564Z",
+      "inStock": true
+    },
+    {
+      "_id": "18fw036",
+      "name": "risus consectetur",
+      "price": 56,
+      "type": "Educational",
+      "createdAt": "1999-05-14T22:05:51.694Z",
+      "inStock": true
+    },
+    {
+      "_id": "1wc8037",
+      "name": "amet pulvinar",
+      "price": 97,
+      "type": "Funny",
+      "createdAt": "1998-05-07T09:50:36.450Z",
+      "inStock": true
+    },
+    {
+      "_id": "1803w28",
+      "name": "eros vestibulum",
+      "price": 27,
+      "type": "Adult",
+      "createdAt": "1977-06-15T00:18:11.987Z",
+      "inStock": false
+    },
+    {
+      "_id": "1803w29",
+      "name": "porttitor aenean",
+      "price": 64,
+      "type": "Educational",
+      "createdAt": "1990-11-10T07:02:28.769Z",
+      "inStock": true
+    },
+    {
+      "_id": "1804d0",
+      "name": "pretium pretium",
+      "price": 80,
+      "type": "Educational",
+      "createdAt": "1970-01-07T15:36:41.643Z",
+      "inStock": true
+    },
+    {
+      "_id": "18041w3",
+      "name": "sollicitudin dolor",
+      "price": 13,
+      "type": "Educational",
+      "createdAt": "1993-01-01T05:19:57.993Z",
+      "inStock": false
+    },
+    {
+      "_id": "1804oj2",
+      "name": "elementum curabitur",
+      "price": 71,
+      "type": "Funny",
+      "createdAt": "1975-02-21T11:31:04.480Z",
+      "inStock": false
+    },
+    {
+      "_id": "180fw43",
+      "name": "aenean pulvinar",
+      "price": 77,
+      "type": "Funny",
+      "createdAt": "1987-06-09T13:42:37.361Z",
+      "inStock": true
+    }
+  ]
+}
