@@ -29,8 +29,8 @@ function save(toy) {
             .then(res => res.data)
     } else {
         toy.createdAt = Date.now();
-        todo.inStock = true;
-        return axios.post(_getUrl(), todo)
+        toy.inStock = toy.inStock;
+        return axios.post(_getUrl(), toy)
             .then(res => res.data)
     }
 }

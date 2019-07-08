@@ -7,6 +7,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     toys: [],
+    pagesCount:'',
     isLoading: false,
     filterBy: {
       text: '',
@@ -16,7 +17,8 @@ export default new Vuex.Store({
   },
   mutations: {
     setToys(state, { toys }) {
-      state.toys = toys
+      state.toys = toys.items;
+      state.pagesCount = toys.querySize;
     },
     isLoading(state, { isLoading }) {
       state.isLoading = isLoading;
@@ -69,5 +71,8 @@ export default new Vuex.Store({
         (toy.name.toLowerCase().includes(state.filterBy.text) || state.filterBy.text === '') &&
         (toy.inStock === (state.filterBy.status === 'inStock') || state.filterBy.status === ''))
     },
+    pagesCount(state){
+      return +state.pagesCount;
+    }
   }
 })

@@ -3,14 +3,21 @@ import Router from 'vue-router'
 import ToyApp from './views/ToyApp'
 import ToyDetails from './views/ToyDetails'
 import ToyEdit from './views/ToyEdit'
+import ToyAdd from './views/ToyAdd'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
       name: 'home',
       component: ToyApp
+    },
+    {
+      path: '/toy/new',
+      name: 'ToyAdd',
+      component: ToyAdd
     },
     {
       path: '/toy/:id?',
@@ -22,5 +29,6 @@ export default new Router({
       name: 'toyEdit',
       component: ToyEdit
     },
+    
   ]
 })

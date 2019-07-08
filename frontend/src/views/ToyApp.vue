@@ -2,7 +2,10 @@
   <section>
     <toy-list @emit-delete="deleteToy" :toys="toys"></toy-list>
     <div class="text-xs-center">
-      <v-pagination v-model="page" :length="5" @input="setPage"></v-pagination>
+      <v-btn flat color="green" @click="addToy">Add</v-btn>
+    </div>
+    <div class="text-xs-center">
+      <v-pagination v-model="page" :length="pageCount" @input="setPage"></v-pagination>
     </div>
   </section>
 </template>
@@ -28,6 +31,9 @@ export default {
     setPage() {
       this.$store.commit("setPage", this.page);
       this.$store.dispatch({ type: "loadToys" });
+    },
+    addToy() {
+      this.$router.push(`/toy/new`);
     }
   },
   computed: {
@@ -36,6 +42,9 @@ export default {
     },
     isLoading() {
       return this.$store.getters.isLoading;
+    },
+    pageCount() {
+      return this.$store.getters.pagesCount;
     }
   }
 };
