@@ -59,7 +59,7 @@ async function update(toy) {
     const collection = await dbService.getCollection('toy')
     try {
         const toyId = toy._id;
-        delete toy._id;
+        toy._id = new ObjectId(toyId)
         await collection.updateOne({ "_id": ObjectId(toyId) }, { $set: toy })
         return toy
     } catch (err) {
